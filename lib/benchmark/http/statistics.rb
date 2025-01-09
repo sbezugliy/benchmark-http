@@ -8,7 +8,7 @@ require "async/clock"
 module Benchmark
 	module HTTP
 		class Stopwatch
-			def initialize(concurrency = 0)
+			def initialize(concurrency = 1)
 				@samples = []
 				
 				# The number of currently executing measurements:
